@@ -1,0 +1,64 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /*直接从网站加的*/
+
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 2rem;
+	color: #e2dbdb;
+}
+
+hr{
+	border-color: #F05F44;
+	border-width: 3px;
+	/*水平线的长度*/
+	max-width: 65px;
+}
+
+/*缓冲器类，加两个div中定义的新div，加空白*/
+.buffer{
+	height: 10rem;
+}
+
+/*在原类上修改*/
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+/*自己定义的类*/
+/*改变botton大小*/
+.btn-xl{
+	padding:1rem 2rem;
+}
+
+
+.btn-primary{
+	/*改变botton的颜色*/
+	background-color: #F05F44;
+	/*改变botton 的 border颜色*/
+	border-color: #F05F44;
+}
+
+
+.btn-primary:hover{
+	/*徘徊时颜色加深*/
+	background-color: #ee4b08;
+	border-color:  #ee4b08;
+	/*徘徊时变大*/
+	border-width: 4px;
+}
+
+
+
